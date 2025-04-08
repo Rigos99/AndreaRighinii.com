@@ -25,7 +25,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="section-padding">
+    <section id="about" className="py-8 md:py-16">
       <div className="container-custom">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* About me section */}
