@@ -6,84 +6,85 @@ import ProjectCard, { ProjectCardProps } from './ProjectCard';
 const projectsData: ProjectCardProps[] = [
   {
     id: 1,
-    title: "Ottimizzazione Funnel E-commerce",
-    description: "Riprogettazione completa del funnel di acquisizione per un e-commerce nel settore moda, con focus su UX e copy persuasivo.",
+    title: "Strategia di Growth per Startup SaaS",
+    description: "Implementazione di una strategia completa di growth per una startup SaaS in fase early-stage con focus su acquisizione utenti e conversione.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2426&h=1728",
-    category: "E-commerce",
+    category: "SaaS",
     results: [
       "+45% tasso di conversione",
       "-28% costo di acquisizione cliente",
-      "+62% valore ordine medio"
+      "+62% retention rate"
     ],
     link: "#"
   },
   {
     id: 2,
-    title: "Strategia SEO per Startup SaaS",
-    description: "Sviluppo e implementazione di una strategia SEO completa per una startup SaaS nel settore fintech, con focus su keyword a lungo termine.",
-    image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "SEO",
+    title: "Content Marketing per Ristorante",
+    description: "Sviluppo di una strategia di content marketing per aumentare la visibilità online e le prenotazioni di un ristorante di fascia media.",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=3840&h=2160",
+    category: "Ristoranti",
     results: [
       "+320% traffico organico",
-      "+15 posizioni #1 in SERP",
-      "+87% lead generation"
-    ]
+      "+75% prenotazioni online",
+      "+35% clienti ricorrenti"
+    ],
+    link: "#"
   },
   {
     id: 3,
-    title: "Campagna Marketing Multi-canale",
-    description: "Pianificazione ed esecuzione di una campagna marketing integrata su più canali per il lancio di un nuovo prodotto nel settore wellness.",
+    title: "Campagna Ads per PMI",
+    description: "Pianificazione ed esecuzione di una campagna pubblicitaria su Google e Facebook per una piccola impresa locale nel settore servizi.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "Marketing",
+    category: "PMI",
     results: [
-      "120.000€ di vendite al lancio",
-      "ROI del 380%",
-      "+25.000 nuovi follower sui social"
+      "ROAS di 4.8x",
+      "-30% costo per click",
+      "+65% tasso di conversione"
     ],
     link: "#"
   },
   {
     id: 4,
-    title: "Ottimizzazione Campagne Google Ads",
-    description: "Ristrutturazione completa dell'account Google Ads per un'azienda B2B, con focus su segmentazione avanzata e automazione.",
+    title: "Marketing Automation per SaaS",
+    description: "Implementazione di un sistema di automazione marketing per una startup SaaS, con focus su onboarding e nurturing dei lead.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "PPC",
+    category: "SaaS",
     results: [
-      "+82% conversion rate",
-      "-35% costo per lead",
-      "+112% ROAS"
+      "+82% completamento onboarding",
+      "-35% churn rate",
+      "+112% conversion rate"
     ],
     link: "#"
   },
   {
     id: 5,
-    title: "Content Strategy B2B",
-    description: "Sviluppo di una strategia di content marketing per un'azienda B2B nel settore manifatturiero, con focus su lead nurturing.",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "Content",
+    title: "Strategia Social per Ristorante",
+    description: "Creazione e gestione di una strategia social media per aumentare la visibilità e l'engagement di un ristorante di nicchia.",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=3840&h=2160",
+    category: "Ristoranti",
     results: [
       "+245% engagement sui contenuti",
-      "+68% lead qualificati",
-      "-42% ciclo di vendita"
+      "+68% follower organici",
+      "+42% visite al sito dal social"
     ]
   },
   {
     id: 6,
-    title: "Automazione Marketing per PMI",
-    description: "Implementazione di un sistema di automazione marketing per una PMI nel settore servizi, con focus su personalizzazione e scalabilità.",
+    title: "Growth Strategy per Impresa Familiare",
+    description: "Sviluppo di una strategia di crescita per un'impresa familiare tradizionale, con focus su digitalizzazione e acquisizione nuovi clienti.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "Automazione",
+    category: "PMI",
     results: [
-      "+75% efficienza operativa",
+      "+75% lead generati",
       "-30% costo acquisizione clienti",
-      "+55% customer retention"
+      "+55% fatturato annuale"
     ],
     link: "#"
   }
 ];
 
 // Categories for filtering
-const categories = ["Tutti", "E-commerce", "SEO", "Marketing", "PPC", "Content", "Automazione"];
+const categories = ["Tutti", "SaaS", "Ristoranti", "PMI"];
 
 const ProjectsShowcase = () => {
   const [activeCategory, setActiveCategory] = useState("Tutti");
@@ -100,7 +101,7 @@ const ProjectsShowcase = () => {
             <span className="heading-gradient">Progetti</span> di Successo
           </h2>
           <p className="text-gray-700">
-            Scopri come ho aiutato diverse aziende a raggiungere i loro obiettivi di crescita attraverso strategie innovative e data-driven.
+            Scopri come ho aiutato PMI, startup e imprese familiari a raggiungere i loro obiettivi di crescita attraverso strategie innovative e data-driven.
           </p>
         </div>
         

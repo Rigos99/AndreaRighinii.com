@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex items-center justify-between py-4">
         <a href="#" className="text-2xl font-bold text-growth-700">
-          GrowthAchink
+          Andrea Righini
         </a>
 
         {/* Desktop Navigation */}

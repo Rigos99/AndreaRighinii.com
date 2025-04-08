@@ -1,21 +1,22 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const About = () => {
   // Services data
   const services = [
     {
-      title: "Ottimizzazione Funnel",
-      description: "Analisi e miglioramento del percorso di conversione per aumentare i tassi di conversione e ridurre il costo di acquisizione clienti."
+      title: "Content Marketing",
+      description: "Creazione di contenuti strategici che coinvolgono il pubblico target e costruiscono autorità nel settore, aumentando la visibilità organica."
+    },
+    {
+      title: "Ads Management",
+      description: "Gestione ottimizzata di campagne pubblicitarie su Google e social media per massimizzare il ROI e ridurre il costo di acquisizione."
     },
     {
       title: "Growth Marketing",
       description: "Strategie data-driven per accelerare la crescita attraverso test A/B, ottimizzazione e scale-up delle campagne marketing."
-    },
-    {
-      title: "Strategia SEO",
-      description: "Posizionamento organico attraverso strategie SEO tecniche e content marketing mirato per generare traffico qualificato."
     },
     {
       title: "Marketing Automation",
@@ -34,15 +35,26 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold">
-              Growth Hacker con <span className="heading-gradient">esperienza</span> in vari settori
+              Growth Hacker con <span className="heading-gradient">esperienza</span> nel settore startup
             </h2>
             
+            <div className="flex items-center space-x-4 my-6">
+              <Avatar className="w-20 h-20 border-2 border-growth-600">
+                <AvatarImage src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80" alt="Andrea Righini" />
+                <AvatarFallback>AR</AvatarFallback>
+              </Avatar>
+              <div>
+                <h3 className="text-xl font-semibold text-growth-700">Andrea Righini</h3>
+                <p className="text-gray-600">Growth & Marketing Specialist</p>
+              </div>
+            </div>
+            
             <p className="text-gray-700">
-              Mi occupo di aiutare le aziende a crescere attraverso strategie innovative e data-driven. Con un approccio incentrato sul cliente e sull'analisi dei dati, creo soluzioni personalizzate che generano risultati misurabili.
+              Mi occupo di aiutare PMI, startup e imprese familiari a crescere attraverso strategie innovative di growth hacking e marketing data-driven. Con due lauree in ambito economico-manageriale e un approccio analitico, sviluppo soluzioni personalizzate che generano risultati concreti.
             </p>
             
             <p className="text-gray-700">
-              Ho lavorato con startup, PMI e grandi aziende in diversi settori, dall'e-commerce al SaaS, dal B2B al B2C, aiutandole a raggiungere i loro obiettivi di crescita in modo sostenibile e scalabile.
+              Ho lavorato principalmente con startup SaaS e ristoranti, specializzandomi in content marketing, gestione di campagne ads e strategie di crescita sostenibili per realtà che vogliono scalare in modo efficiente.
             </p>
             
             <div className="pt-4 flex gap-4">
@@ -60,20 +72,20 @@ const About = () => {
             {/* Experience numbers */}
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <p className="text-4xl font-bold text-growth-600">5+</p>
+                <p className="text-4xl font-bold text-growth-600">2+</p>
                 <p className="text-gray-700">Anni di esperienza</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <p className="text-4xl font-bold text-growth-600">70+</p>
+                <p className="text-4xl font-bold text-growth-600">10+</p>
                 <p className="text-gray-700">Progetti completati</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <p className="text-4xl font-bold text-growth-600">40+</p>
-                <p className="text-gray-700">Clienti soddisfatti</p>
+                <p className="text-4xl font-bold text-growth-600">4+</p>
+                <p className="text-gray-700">Clienti attivi</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm">
-                <p className="text-4xl font-bold text-growth-600">3x</p>
-                <p className="text-gray-700">ROI medio</p>
+                <p className="text-4xl font-bold text-growth-600">2</p>
+                <p className="text-gray-700">Lauree</p>
               </div>
             </div>
             

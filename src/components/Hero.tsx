@@ -34,18 +34,18 @@ const Hero = () => {
           
           <div className="flex items-center space-x-6 pt-4">
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-growth-700">50+</p>
+              <p className="text-3xl md:text-4xl font-bold text-growth-700">10+</p>
               <p className="text-sm text-gray-600">Progetti completati</p>
             </div>
             <div className="h-12 w-px bg-gray-200"></div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-growth-700">90%</p>
-              <p className="text-sm text-gray-600">Clienti soddisfatti</p>
+              <p className="text-3xl md:text-4xl font-bold text-growth-700">4</p>
+              <p className="text-sm text-gray-600">Clienti attuali</p>
             </div>
             <div className="h-12 w-px bg-gray-200"></div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-growth-700">3x</p>
-              <p className="text-sm text-gray-600">ROI medio</p>
+              <p className="text-3xl md:text-4xl font-bold text-growth-700">2+</p>
+              <p className="text-sm text-gray-600">Anni di esperienza</p>
             </div>
           </div>
         </div>
