@@ -94,9 +94,9 @@ const ProjectsShowcase = () => {
     : projectsData.filter(project => project.category === activeCategory);
 
   return (
-    <section id="projects" className="section-padding bg-gray-50">
+    <section id="projects" className="py-4 md:py-12 bg-gray-50">
       <div className="container-custom">
-        <div className="text-center max-w-2xl mx-auto mb-12 opacity-0 animate-fade-in">
+        <div className="text-center max-w-2xl mx-auto mb-8 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="heading-gradient">Progetti</span> di Successo
           </h2>
@@ -106,7 +106,7 @@ const ProjectsShowcase = () => {
         </div>
         
         {/* Category filters */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12 opacity-0 animate-fade-in animate-delay-200">
+        <div className="flex flex-wrap justify-center gap-2 mb-8 opacity-0 animate-fade-in animate-delay-200">
           {categories.map((category, index) => (
             <button
               key={index}

@@ -12,7 +12,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <div className="mt-0">
+      <div className="mt-[-100px]">
         <ProjectsShowcase />
         <About />
         <Contact />
