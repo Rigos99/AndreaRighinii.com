@@ -94,7 +94,7 @@ const ProjectsShowcase = () => {
     : projectsData.filter(project => project.category === activeCategory);
 
   return (
-    <section id="projects" className="py-4 md:py-12 bg-gray-50">
+    <section id="projects" className="py-12 md:py-16 bg-gray-50">
       <div className="container-custom">
         <div className="text-center max-w-2xl mx-auto mb-8 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
