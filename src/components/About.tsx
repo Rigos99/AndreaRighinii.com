@@ -27,7 +27,7 @@ const About = () => {
   return (
     <section id="about" className="py-4 md:py-12">
       <div className="container-custom">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* About me section */}
           <div className="space-y-6 opacity-0 animate-fade-in">
             <div className="inline-block text-xs font-medium px-3 py-1 rounded-full bg-growth-100 text-growth-700">
@@ -40,7 +40,7 @@ const About = () => {
             
             <div className="flex items-center space-x-4 my-6">
               <Avatar className="w-20 h-20 border-2 border-growth-600">
-                <AvatarImage src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80" alt="Andrea Righini" />
+                <AvatarImage src="/lovable-uploads/b16c6f54-9f48-4161-aef9-7790c2e65172.png" alt="Andrea Righini" />
                 <AvatarFallback>AR</AvatarFallback>
               </Avatar>
               <div>
