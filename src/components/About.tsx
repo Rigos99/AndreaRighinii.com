@@ -35,7 +35,7 @@ const About = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold">
-              Growth Hacker con <span className="heading-gradient">esperienza</span> nel settore startup
+              <span className="heading-gradient">Growth marketing</span> con esperienza
             </h2>
             
             <div className="flex items-center space-x-4 my-6">
@@ -50,7 +50,7 @@ const About = () => {
             </div>
             
             <p className="text-gray-700">
-              Mi occupo di aiutare PMI, startup e imprese familiari a crescere attraverso strategie innovative di growth hacking e marketing data-driven. Con due lauree in ambito economico-manageriale e un approccio analitico, sviluppo soluzioni personalizzate che generano risultati concreti.
+              Mi occupo di aiutare Startup, Scaleup e imprese familiari a crescere attraverso strategie innovative di growth marketing e marketing data-driven. Con due lauree in ambito economico-manageriale e un approccio analitico, sviluppo soluzioni personalizzate che generano risultati concreti.
             </p>
             
             <p className="text-gray-700">

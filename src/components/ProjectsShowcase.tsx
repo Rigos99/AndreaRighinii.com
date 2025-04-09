@@ -9,13 +9,13 @@ const projectsData: ProjectCardProps[] = [
     title: "Strategia di Growth per Startup SaaS",
     description: "Implementazione di una strategia completa di growth per una startup SaaS in fase early-stage con focus su acquisizione utenti e conversione.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2426&h=1728",
-    category: "SaaS",
+    category: "Startup",
     results: [
       "+45% tasso di conversione",
       "-28% costo di acquisizione cliente",
       "+62% retention rate"
     ],
-    link: "#"
+    link: "/case-studies/startup-saas"
   },
   {
     id: 2,
@@ -28,33 +28,33 @@ const projectsData: ProjectCardProps[] = [
       "+75% prenotazioni online",
       "+35% clienti ricorrenti"
     ],
-    link: "#"
+    link: "/case-studies/ristorante-content"
   },
   {
     id: 3,
-    title: "Campagna Ads per PMI",
-    description: "Pianificazione ed esecuzione di una campagna pubblicitaria su Google e Facebook per una piccola impresa locale nel settore servizi.",
+    title: "Campagna Ads per Impresa Familiare",
+    description: "Pianificazione ed esecuzione di una campagna pubblicitaria su Google e Facebook per un'impresa familiare locale nel settore servizi.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "PMI",
+    category: "Imprese Familiari",
     results: [
       "ROAS di 4.8x",
       "-30% costo per click",
       "+65% tasso di conversione"
     ],
-    link: "#"
+    link: "/case-studies/impresa-familiare-ads"
   },
   {
     id: 4,
     title: "Marketing Automation per SaaS",
     description: "Implementazione di un sistema di automazione marketing per una startup SaaS, con focus su onboarding e nurturing dei lead.",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "SaaS",
+    category: "Startup",
     results: [
       "+82% completamento onboarding",
       "-35% churn rate",
       "+112% conversion rate"
     ],
-    link: "#"
+    link: "/case-studies/saas-automation"
   },
   {
     id: 5,
@@ -66,25 +66,26 @@ const projectsData: ProjectCardProps[] = [
       "+245% engagement sui contenuti",
       "+68% follower organici",
       "+42% visite al sito dal social"
-    ]
+    ],
+    link: "/case-studies/ristorante-social"
   },
   {
     id: 6,
-    title: "Growth Strategy per Impresa Familiare",
-    description: "Sviluppo di una strategia di crescita per un'impresa familiare tradizionale, con focus su digitalizzazione e acquisizione nuovi clienti.",
+    title: "Growth Strategy per Scaleup",
+    description: "Sviluppo di una strategia di crescita per una scaleup in rapida espansione, con focus su scalabilità e acquisizione nuovi clienti.",
     image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=3840&h=2160",
-    category: "PMI",
+    category: "Scaleup",
     results: [
       "+75% lead generati",
       "-30% costo acquisizione clienti",
       "+55% fatturato annuale"
     ],
-    link: "#"
+    link: "/case-studies/scaleup-growth"
   }
 ];
 
 // Categories for filtering
-const categories = ["Tutti", "SaaS", "Ristoranti", "PMI"];
+const categories = ["Tutti", "Startup", "Scaleup", "Ristoranti", "Imprese Familiari"];
 
 const ProjectsShowcase = () => {
   const [activeCategory, setActiveCategory] = useState("Tutti");
@@ -101,7 +102,7 @@ const ProjectsShowcase = () => {
             <span className="heading-gradient">Progetti</span> di Successo
           </h2>
           <p className="text-gray-700">
-            Scopri come ho aiutato PMI, startup e imprese familiari a raggiungere i loro obiettivi di crescita attraverso strategie innovative e data-driven.
+            Scopri come ho aiutato Startup, Scaleup e imprese familiari a raggiungere i loro obiettivi di crescita attraverso strategie innovative e data-driven.
           </p>
         </div>
         

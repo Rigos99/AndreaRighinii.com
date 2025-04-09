@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="space-y-8 opacity-0 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-              <span className="heading-gradient">Growth Hacking</span> per far crescere il tuo business
+              <span className="heading-gradient">Brand & Growth</span> marketing
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-lg">
               Strategie innovative e soluzioni concrete per accelerare la crescita della tua azienda in modo sostenibile e misurabile.
@@ -65,30 +65,30 @@ const Hero = () => {
                 <div className="space-y-6">
                   <div className="flex items-center justify-between">
                     <div className="space-y-1">
-                      <p className="font-medium text-gray-900">Acquisizione Utenti</p>
+                      <p className="font-medium text-gray-900">Fatturato</p>
                       <div className="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-500">
                           <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
                           <polyline points="16 7 22 7 22 13"></polyline>
                         </svg>
-                        <span className="text-green-600 text-sm ml-1">+24.8%</span>
+                        <span className="text-green-600 text-sm ml-1">+35.2%</span>
                       </div>
                     </div>
-                    <p className="text-2xl font-semibold">12,540</p>
+                    <p className="text-2xl font-semibold">€142.500</p>
                   </div>
                   
                   <div className="flex items-center justify-between">
                     <div className="space-y-1">
-                      <p className="font-medium text-gray-900">Conversione</p>
+                      <p className="font-medium text-gray-900">ROI</p>
                       <div className="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-green-500">
                           <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
                           <polyline points="16 7 22 7 22 13"></polyline>
                         </svg>
-                        <span className="text-green-600 text-sm ml-1">+18.2%</span>
+                        <span className="text-green-600 text-sm ml-1">+4.8x</span>
                       </div>
                     </div>
-                    <p className="text-2xl font-semibold">3.2%</p>
+                    <p className="text-2xl font-semibold">480%</p>
                   </div>
                   
                   <div className="flex items-center justify-between">
@@ -99,10 +99,10 @@ const Hero = () => {
                           <polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline>
                           <polyline points="16 17 22 17 22 11"></polyline>
                         </svg>
-                        <span className="text-red-500 text-sm ml-1">-12.5%</span>
+                        <span className="text-red-500 text-sm ml-1">-28.5%</span>
                       </div>
                     </div>
-                    <p className="text-2xl font-semibold">€22.4</p>
+                    <p className="text-2xl font-semibold">€18.5</p>
                   </div>
                 </div>
               </div>

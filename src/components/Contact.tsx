@@ -123,7 +123,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Telefono</h4>
-                    <p className="text-gray-600">+39 123 456 7890</p>
+                    <p className="text-gray-600">+39 3400664833</p>
                   </div>
                 </div>
                 
@@ -147,7 +147,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-gray-600">info@growthachink.com</p>
+                    <p className="text-gray-600">andry.righini@gmail.com</p>
                   </div>
                 </div>
                 
@@ -171,7 +171,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium">Indirizzo</h4>
-                    <p className="text-gray-600">Via Roma 123, Milano, Italia</p>
+                    <p className="text-gray-600">Rimini 47924</p>
                   </div>
                 </div>
               </div>
